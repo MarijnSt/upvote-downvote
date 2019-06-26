@@ -7,7 +7,7 @@
   margin-top: 100px;
   text-align: center;
   display: grid;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 75px 50px;
 }
 .main-container .thumb-container {
   width: 300px;
@@ -15,13 +15,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
+  align-items: center;
 }
 .main-container .thumb-container img {
-  max-width: 20px;
+  max-width: 30px;
   padding: 10px;
+  justify-self: end;
 }
 .main-container .thumb-container p {
   padding: 10px;
+  justify-self: start;
 }
 
 /*# sourceMappingURL=index.css.map */
